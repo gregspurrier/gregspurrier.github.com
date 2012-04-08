@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>sourcematters.org</title>
+  <link href="http://sourcematters.org/"/>
+  <link type="application/atom+xml" rel="self" href="http://sourcematters.org/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://sourcematters.org/</id>
+  <author>
+    <name>Greg Spurrier</name>
+    <email>greg@sourcematters.org</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://sourcematters.org{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://sourcematters.org{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Greg Spurrier</name>
+      <uri>http://sourcematters.org/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>

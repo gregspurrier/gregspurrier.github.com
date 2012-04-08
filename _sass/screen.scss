@@ -1,0 +1,159 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+body {
+  font-family: Merriweather, Georgia, serif;
+  font-size: 1em;
+  color: $base00;
+  background-color: $base3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Nobile, Arial, sans-serif;
+  color: $base01;
+  a {
+    color: $base01;
+  }
+}
+
+p {
+  line-height: 1.625;
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+}
+
+h1 {
+  font-size: 1.625em;
+  line-height: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.25em;
+  line-height: 1.3;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+}
+
+h3 {
+  line-height: 1.625;
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+}
+
+a {
+  color: $yellow;
+  text-decoration: none;
+}
+
+pre {
+  padding: 0.8125em;
+  margin: 0.8125em;
+  background-color: $base2;
+}
+
+code {
+  font-family: Inconsolata, Monaco, monospace;
+}
+
+#page {
+  margin: auto;
+  max-width: 685px;
+}
+
+#header {
+  text-align: center;
+  padding-bottom: 0.375em;
+  margin: 0.5em 0 0.5em 0;
+
+  h2 {
+    font-family: Inconsolata, Monaco, monospace;
+    font-size: 3em;
+    line-height: 1em;
+    margin: 0;
+  }
+  h3 {
+    font-family: Inconsolata, Monaco, monospace;
+    font-size: 1.5em;
+    line-height: 0.85em;
+    margin: 0;
+  }
+}
+
+#nav {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-top: 2px solid $base01;
+  border-bottom: 2px solid $base01;
+
+  #nav-inner {
+    text-align: center;
+    li {
+      display: inline;
+      list-style-type: none;
+      line-height: 1.375em;
+      a {
+        color: $base01;
+      }
+    }
+
+    li + li {
+      padding-left: 1.625em;
+    }
+  }
+}
+
+#content {
+  p {
+    text-align: justify;
+  }
+
+  img {
+    float: left;
+    margin-right: 1em;
+    border: 1px solid $base01;
+  }
+}
+
+.dateline {
+  font-size: 0.625em;
+  line-height: 2.6;
+  margin-top: -2.6em;
+  margin-bottom: 0;
+}
+
+.dateline + p {
+  margin-top: 0;
+}
+
+#footer {
+  font-family: Inconsolata, Monaco, monospace;
+  border-top: 1px solid $base01;
+
+  p {
+    text-align: center;
+    margin-top: 0;
+  }
+}

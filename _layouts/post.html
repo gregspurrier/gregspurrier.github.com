@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather|Inconsolata|Nobile:700' rel='stylesheet' type='text/css'>
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <title>{{ page.title }}</title>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-30676971-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="page">
+      {% include header.html %}
+      {% include nav.html %}
+      <div id="content">
+        <h1>{{ page.title }}</h1>
+        <p class="dateline">{{ page.date | date: "%B %d, %Y" }} &middot;
+          {% for tag in page.tags %}
+          {{ tag }}
+          {% endfor %}
+        </p>
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
