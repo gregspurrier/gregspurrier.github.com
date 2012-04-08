@@ -169,31 +169,32 @@ code {
 }
 /* line 111, ../_sass/screen.scss */
 #nav #nav-inner {
+  padding-top: 0.25em;
   text-align: center;
 }
-/* line 113, ../_sass/screen.scss */
+/* line 114, ../_sass/screen.scss */
 #nav #nav-inner li {
   display: inline;
   list-style-type: none;
   line-height: 1.375em;
 }
-/* line 117, ../_sass/screen.scss */
+/* line 118, ../_sass/screen.scss */
 #nav #nav-inner li a {
   color: #586e75;
 }
-/* line 122, ../_sass/screen.scss */
+/* line 123, ../_sass/screen.scss */
 #nav #nav-inner li + li {
   padding-left: 1.625em;
 }
 
-/* line 129, ../_sass/screen.scss */
+/* line 130, ../_sass/screen.scss */
 #content img {
   float: left;
   margin-right: 1em;
   border: 1px solid #586e75;
 }
 
-/* line 136, ../_sass/screen.scss */
+/* line 137, ../_sass/screen.scss */
 .dateline {
   font-size: 0.625em;
   line-height: 2.6;
@@ -201,17 +202,17 @@ code {
   margin-bottom: 0;
 }
 
-/* line 143, ../_sass/screen.scss */
+/* line 144, ../_sass/screen.scss */
 .dateline + p {
   margin-top: 0;
 }
 
-/* line 147, ../_sass/screen.scss */
+/* line 148, ../_sass/screen.scss */
 #footer {
   font-family: Inconsolata, Monaco, monospace;
   border-top: 1px solid #586e75;
 }
-/* line 151, ../_sass/screen.scss */
+/* line 152, ../_sass/screen.scss */
 #footer p {
   text-align: center;
   margin-top: 0;
