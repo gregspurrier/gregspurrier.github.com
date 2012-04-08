@@ -24,7 +24,7 @@ $green:     #859900;
 
 body {
   font-family: Merriweather, Georgia, serif;
-  font-size: 1em;
+  font-size: 0.9375em;
   color: $base00;
   background-color: $base3;
 }
@@ -80,7 +80,7 @@ code {
 
 #page {
   margin: auto;
-  max-width: 685px;
+  max-width: 37em;
 }
 
 #header {

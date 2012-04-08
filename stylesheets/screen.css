@@ -70,7 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 25, ../_sass/screen.scss */
 body {
   font-family: Merriweather, Georgia, serif;
-  font-size: 1em;
+  font-size: 0.9375em;
   color: #657b83;
   background-color: #fdf6e3;
 }
@@ -136,7 +136,7 @@ code {
 /* line 81, ../_sass/screen.scss */
 #page {
   margin: auto;
-  max-width: 685px;
+  max-width: 37em;
 }
 
 /* line 86, ../_sass/screen.scss */
