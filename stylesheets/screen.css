@@ -187,17 +187,13 @@ code {
 }
 
 /* line 129, ../_sass/screen.scss */
-#content p {
-  text-align: justify;
-}
-/* line 133, ../_sass/screen.scss */
 #content img {
   float: left;
   margin-right: 1em;
   border: 1px solid #586e75;
 }
 
-/* line 140, ../_sass/screen.scss */
+/* line 136, ../_sass/screen.scss */
 .dateline {
   font-size: 0.625em;
   line-height: 2.6;
@@ -205,17 +201,17 @@ code {
   margin-bottom: 0;
 }
 
-/* line 147, ../_sass/screen.scss */
+/* line 143, ../_sass/screen.scss */
 .dateline + p {
   margin-top: 0;
 }
 
-/* line 151, ../_sass/screen.scss */
+/* line 147, ../_sass/screen.scss */
 #footer {
   font-family: Inconsolata, Monaco, monospace;
   border-top: 1px solid #586e75;
 }
-/* line 155, ../_sass/screen.scss */
+/* line 151, ../_sass/screen.scss */
 #footer p {
   text-align: center;
   margin-top: 0;
