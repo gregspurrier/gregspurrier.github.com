@@ -2,8 +2,8 @@
 layout: default
 title: Source Matters
 ---
-<div class="post">
-  {% for post in site.posts %}
+{% for post in site.posts %}
+  <div class="post">
     <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
     <p class="dateline">{{ post.date | date: "%B %d, %Y" }} &middot;
       {% for tag in post.tags %}
@@ -11,5 +11,5 @@ title: Source Matters
       {% endfor %}
     </p>
     {{ post.content }}
-  {% endfor %}
-</div>
+  </div>
+{% endfor %}

@@ -126,33 +126,34 @@ pre {
   padding: 0.8125em;
   margin: 0.8125em;
   background-color: #eee8d5;
+  overflow: scroll;
 }
 
-/* line 77, ../_sass/screen.scss */
+/* line 78, ../_sass/screen.scss */
 code {
   font-family: Inconsolata, Monaco, monospace;
 }
 
-/* line 81, ../_sass/screen.scss */
+/* line 82, ../_sass/screen.scss */
 #page {
   margin: auto;
   max-width: 37em;
 }
 
-/* line 86, ../_sass/screen.scss */
+/* line 87, ../_sass/screen.scss */
 #header {
   text-align: center;
   padding-bottom: 0.375em;
   margin: 0.5em 0 0.5em 0;
 }
-/* line 91, ../_sass/screen.scss */
+/* line 92, ../_sass/screen.scss */
 #header h2 {
   font-family: Inconsolata, Monaco, monospace;
   font-size: 3em;
   line-height: 1em;
   margin: 0;
 }
-/* line 97, ../_sass/screen.scss */
+/* line 98, ../_sass/screen.scss */
 #header h3 {
   font-family: Inconsolata, Monaco, monospace;
   font-size: 1.5em;
@@ -160,41 +161,41 @@ code {
   margin: 0;
 }
 
-/* line 105, ../_sass/screen.scss */
+/* line 106, ../_sass/screen.scss */
 #nav {
   margin-top: 1em;
   margin-bottom: 1em;
   border-top: 2px solid #586e75;
   border-bottom: 2px solid #586e75;
 }
-/* line 111, ../_sass/screen.scss */
+/* line 112, ../_sass/screen.scss */
 #nav #nav-inner {
   padding-top: 0.25em;
   text-align: center;
 }
-/* line 114, ../_sass/screen.scss */
+/* line 115, ../_sass/screen.scss */
 #nav #nav-inner li {
   display: inline;
   list-style-type: none;
   line-height: 1.375em;
 }
-/* line 118, ../_sass/screen.scss */
+/* line 119, ../_sass/screen.scss */
 #nav #nav-inner li a {
   color: #586e75;
 }
-/* line 123, ../_sass/screen.scss */
+/* line 124, ../_sass/screen.scss */
 #nav #nav-inner li + li {
   padding-left: 1.625em;
 }
 
-/* line 130, ../_sass/screen.scss */
+/* line 131, ../_sass/screen.scss */
 #content img {
   float: left;
   margin-right: 1em;
   border: 1px solid #586e75;
 }
 
-/* line 137, ../_sass/screen.scss */
+/* line 138, ../_sass/screen.scss */
 .dateline {
   font-size: 0.625em;
   line-height: 2.6;
@@ -202,17 +203,22 @@ code {
   margin-bottom: 0;
 }
 
-/* line 144, ../_sass/screen.scss */
+/* line 145, ../_sass/screen.scss */
 .dateline + p {
   margin-top: 0;
 }
 
-/* line 148, ../_sass/screen.scss */
+/* line 149, ../_sass/screen.scss */
+.post + .post {
+  border-top: 1px solid #586e75;
+}
+
+/* line 153, ../_sass/screen.scss */
 #footer {
   font-family: Inconsolata, Monaco, monospace;
   border-top: 1px solid #586e75;
 }
-/* line 152, ../_sass/screen.scss */
+/* line 157, ../_sass/screen.scss */
 #footer p {
   text-align: center;
   margin-top: 0;
