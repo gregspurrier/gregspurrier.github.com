@@ -53,15 +53,20 @@ Create an `~/.xinitrc` file containing:
 
 Now start XQuartz (it is installed in `/Applications/Utilities`). You will not see anything yet. Open the XQuartz Preferences with Command-, and update the following settings:
 
-- Output
-    - Enable "Full-screen mode"
-- Input
-    - Enable "Emulate three button mouse"
-    - Disable "Follow system keyboard layout"
-    - Disable "Enable key equivalents under X11"
-    - Enable "Option keys sent Alt_L and Alt_R"
-- Pasteboard
-    - Enable all of the options
+-  Output
+
+    -  Enable "Full-screen mode"
+
+-  Input
+
+    -  Enable "Emulate three button mouse"
+    -  Disable "Follow system keyboard layout"
+    -  Disable "Enable key equivalents under X11"
+    -  Enable "Option keys sent Alt_L and Alt_R"
+
+-  Pasteboard
+
+    -  Enable all of the options
 
 We are now ready to toggle full-screen mode with Command-Option-A. After doing so, you should be greeted by a full-screen XTerm. Hitting Option-Shift-Return should open another Xterm. Now hit Option-Shift-Q to quit xmonad (and XQuartz): we've got a little more work to do.
 
