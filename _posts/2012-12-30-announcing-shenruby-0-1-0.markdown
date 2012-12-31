@@ -9,7 +9,7 @@ I discovered [Shen](http://shenlanguage.org)--a functional programming language 
 
 Something I found intriguing about Shen was that it was specifically designed for portability. It is implemented in a language called K Lambda, which is a tiny Lisp consisting of only 46 functions. Port K Lambda and you have ported Shen.
 
-A few weeks ago I got to thinking: wouldn't it be nice to have Shen ported to Ruby in a way that enabled the construction of hybrid applications? Tasks well suited to Shen's pattern matching approach to functional programming could be implemented in Shen. Tasks well suited to OOP or imperative programming could be written in Ruby. The two parts could then run together on a Ruby VM.
+A few weeks ago, while playing with ideas for implementing K Lambda, I got to thinking: wouldn't it be nice to have Shen ported to Ruby in a way that enabled the construction of hybrid applications? Tasks well suited to Shen's pattern matching approach to functional programming could be implemented in Shen. Tasks well suited to OOP or imperative programming could be written in Ruby. The two parts could then run together on a Ruby VM.
 
 Inspired, and with a copy of [_The Book of Shen_](http://www.shenlanguage.org/tbos.html) in hand, I got to work.
 
